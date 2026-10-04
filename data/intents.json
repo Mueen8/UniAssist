@@ -1,0 +1,607 @@
+{
+  "_instructions": "UniAssist - University of Okara BSCS 3rd E Evening Student Assistant. This file contains ML intents only. Student records must be stored separately in data/students.json. After updating this file run: python train.py",
+
+  "intents": [
+
+    {
+      "intent": "greetings",
+      "questions": [
+        "hi",
+        "hello",
+        "hey",
+        "aoa",
+        "assalam o alaikum",
+        "salam",
+        "hello uniassist",
+        "hi assistant",
+        "hey assistant",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "can you help me",
+        "help me",
+        "hello bro"
+      ],
+      "response": "Assalam-o-Alaikum! Main UniAssist hoon — University of Okara ke BSCS 3rd E Evening students ka student assistant. Aap mujhse timetable, subjects, teachers, rooms, class timing, exams, university ki basic information, class students aur mere founder Mueen Shahid ke baare mein pooch sakte hain."
+    },
+
+    {
+      "intent": "goodbye",
+      "questions": [
+        "bye",
+        "goodbye",
+        "see you",
+        "see you later",
+        "talk to you later",
+        "thanks bye",
+        "thank you bye",
+        "i am done",
+        "that is all",
+        "exit",
+        "quit",
+        "good night"
+      ],
+      "response": "Allah Hafiz! Good luck with your studies. Jab bhi UniAssist ki zarurat ho, wapas aa jana."
+    },
+
+    {
+      "intent": "student_class_information",
+      "questions": [
+        "which class am i in",
+        "what is my class",
+        "which section am i in",
+        "what is our section",
+        "which students is this chatbot for",
+        "who is this chatbot for",
+        "what class is this chatbot for",
+        "who is this timetable for",
+        "tell me about BSCS 3rd E",
+        "what is BSCS 3rd E",
+        "is this for third semester",
+        "are you for BSCS 3rd E",
+        "3rd E evening students"
+      ],
+      "response": "UniAssist University of Okara ke BS Computer Science 3rd E Evening students ke liye banaya gaya hai. Yeh chatbot class ki timetable, subjects, teachers, rooms, exams aur basic university information provide karta hai."
+    },
+
+    {
+      "intent": "class_timing",
+      "questions": [
+        "what are our class timings",
+        "what time do classes start",
+        "what time do classes end",
+        "when does evening class start",
+        "when does evening class end",
+        "what is the class timing",
+        "BSCS evening class timing",
+        "when should i come to university",
+        "classes start at what time",
+        "classes end at what time",
+        "what are the timings for 3rd E",
+        "meri class timing kya hai",
+        "class kab start hoti hai",
+        "class kab end hoti hai"
+      ],
+      "response": "BSCS 3rd E Evening ki class timing 1:30 PM se 6:00 PM tak hai."
+    },
+
+    {
+      "intent": "monday_timetable",
+      "questions": [
+        "what classes do i have on monday",
+        "monday timetable",
+        "monday schedule",
+        "subjects on monday",
+        "monday classes",
+        "which subjects are on monday",
+        "monday lectures",
+        "show monday timetable",
+        "what do we study monday",
+        "monday ko meri classes kya hain",
+        "monday ki classes",
+        "monday ko kya hai"
+      ],
+      "response": "Monday timetable: 1) Software Engineering — Room ABIII-G15 — Mr. Arslan Javed. 2) Data Structures — Room ABIII-?02 — Mr. Abu Bakar. 3) Artificial Intelligence — Room ABIII-G13-Lab — Dr. Abdul Jabbar."
+    },
+
+    {
+      "intent": "tuesday_timetable",
+      "questions": [
+        "what classes do i have on tuesday",
+        "tuesday timetable",
+        "tuesday schedule",
+        "subjects on tuesday",
+        "tuesday classes",
+        "which subjects are on tuesday",
+        "tuesday lectures",
+        "show tuesday timetable",
+        "what do we study tuesday",
+        "tuesday ko meri classes kya hain",
+        "tuesday ki classes",
+        "tuesday ko kya hai"
+      ],
+      "response": "Tuesday timetable: 1) Probability & Statistics — Room ABIII-?02 — Mr. Shujaat Ali. 2) Information Security — Room ABIII-G14-Lab — Ms. Ifrah Pervaz. 3) Computer Networks — Room ABIII-G5-Lab — Tauqir Ahmad."
+    },
+
+    {
+      "intent": "wednesday_timetable",
+      "questions": [
+        "what classes do i have on wednesday",
+        "wednesday timetable",
+        "wednesday schedule",
+        "subjects on wednesday",
+        "wednesday classes",
+        "which subjects are on wednesday",
+        "wednesday lectures",
+        "show wednesday timetable",
+        "what do we study wednesday",
+        "wednesday ko meri classes kya hain",
+        "wednesday ki classes"
+      ],
+      "response": "Wednesday timetable: 1) Data Structure Lab — Room ABIII-G4-Lab — Mr. Kamal Zafar. 2) Artificial Intelligence — Room ABIII-G13-Lab — Dr. Abdul Jabbar."
+    },
+
+    {
+      "intent": "thursday_timetable",
+      "questions": [
+        "what classes do i have on thursday",
+        "thursday timetable",
+        "thursday schedule",
+        "subjects on thursday",
+        "thursday classes",
+        "which subjects are on thursday",
+        "thursday lectures",
+        "show thursday timetable",
+        "what do we study thursday",
+        "thursday ko meri classes kya hain",
+        "thursday ki classes"
+      ],
+      "response": "Thursday timetable: 1) Data Structures — Room ABIII-G4-Lab — Mr. Abu Bakar. 2) Software Engineering — Room ABIII-G5-Lab — Mr. Arslan Javed."
+    },
+
+    {
+      "intent": "friday_timetable",
+      "questions": [
+        "what classes do i have on friday",
+        "friday timetable",
+        "friday schedule",
+        "subjects on friday",
+        "friday classes",
+        "which subjects are on friday",
+        "friday lectures",
+        "show friday timetable",
+        "what do we study friday",
+        "friday ko meri classes kya hain",
+        "friday ki classes"
+      ],
+      "response": "Friday timetable: 1) Information Security — Room ABIII-G13-Lab — Ms. Ifrah Pervaz. 2) Probability & Statistics — Room ABIII-?02 — Mr. Shujaat Ali. 3) Computer Networks — Room ABIII-G12-Lab — Tauqir Ahmad."
+    },
+
+    {
+      "intent": "full_timetable",
+      "questions": [
+        "show my complete timetable",
+        "show full timetable",
+        "what is my weekly timetable",
+        "give me the complete schedule",
+        "tell me my timetable",
+        "BSCS 3rd E timetable",
+        "weekly class schedule",
+        "all classes this week",
+        "complete class schedule",
+        "show monday to friday timetable",
+        "what is our full timetable",
+        "give me my weekly schedule",
+        "mera complete timetable batao",
+        "pura timetable batao",
+        "weekly timetable"
+      ],
+      "response": "BSCS 3rd E Evening weekly timetable: Monday — Software Engineering, Data Structures, Artificial Intelligence. Tuesday — Probability & Statistics, Information Security, Computer Networks. Wednesday — Data Structure Lab, Artificial Intelligence. Thursday — Data Structures, Software Engineering. Friday — Information Security, Probability & Statistics, Computer Networks. Class timing 1:30 PM se 6:00 PM hai."
+    },
+
+    {
+      "intent": "subject_information",
+      "questions": [
+        "what subjects do we have",
+        "list my subjects",
+        "tell me my courses",
+        "which subjects are taught in our class",
+        "what are our subjects",
+        "BSCS 3rd E subjects",
+        "list all subjects",
+        "what courses do i study",
+        "which courses are on our timetable",
+        "mere subjects kon se hain",
+        "hamare subjects batao",
+        "3rd E ke subjects"
+      ],
+      "response": "BSCS 3rd E ke subjects hain: Software Engineering, Data Structures, Artificial Intelligence, Probability & Statistics, Information Security, Computer Networks aur Data Structure Lab."
+    },
+
+    {
+      "intent": "credit_hours",
+      "questions": [
+        "how many credit hours is each course",
+        "what are the credit hours",
+        "credit hours of our subjects",
+        "how many credits does each subject have",
+        "are all courses three credit hours",
+        "what is the credit hour of each course",
+        "how many credit hours per course",
+        "our subjects credit hours",
+        "BSCS 3rd E credit hours",
+        "tell me the credits of our courses",
+        "har course ke kitne credit hours hain",
+        "credit hours kitne hain"
+      ],
+      "response": "Provided class information ke mutabiq BSCS 3rd E mein listed courses ko 3 credit hours each treat kiya gaya hai."
+    },
+
+    {
+      "intent": "teacher_information",
+      "questions": [
+        "who teaches software engineering",
+        "who is my data structures teacher",
+        "who teaches artificial intelligence",
+        "who teaches probability and statistics",
+        "who teaches information security",
+        "who teaches computer networks",
+        "who teaches data structure lab",
+        "tell me our teachers",
+        "list all teachers",
+        "which teacher teaches which subject",
+        "teachers of BSCS 3rd E",
+        "AI kis teacher ka hai",
+        "computer networks ka teacher kon hai",
+        "software engineering ka teacher kon hai"
+      ],
+      "response": "BSCS 3rd E teachers: Software Engineering — Mr. Arslan Javed. Data Structures — Mr. Abu Bakar. Artificial Intelligence — Dr. Abdul Jabbar. Probability & Statistics — Mr. Shujaat Ali. Information Security — Ms. Ifrah Pervaz. Computer Networks — Tauqir Ahmad. Data Structure Lab — Mr. Kamal Zafar."
+    },
+
+    {
+      "intent": "room_information",
+      "questions": [
+        "where is software engineering class",
+        "where is data structures class",
+        "where is artificial intelligence class",
+        "where is probability class",
+        "where is information security class",
+        "where is computer networks class",
+        "where is data structure lab",
+        "tell me the rooms",
+        "which room is my class",
+        "show me class rooms",
+        "rooms for BSCS 3rd E",
+        "computer networks kis room mein hai",
+        "AI kis room mein hai",
+        "data structures ka room kya hai"
+      ],
+      "response": "BSCS 3rd E rooms: Software Engineering — ABIII-G15. Data Structures Monday — ABIII-?02. Artificial Intelligence — ABIII-G13-Lab. Probability & Statistics — ABIII-?02. Information Security Tuesday — ABIII-G14-Lab aur Friday — ABIII-G13-Lab. Computer Networks Tuesday — ABIII-G5-Lab aur Friday — ABIII-G12-Lab. Data Structure Lab — ABIII-G4-Lab. Data Structures Thursday — ABIII-G4-Lab. Software Engineering Thursday — ABIII-G5-Lab."
+    },
+
+    {
+      "intent": "exam_information",
+      "questions": [
+        "what exams do we have",
+        "what are our exams",
+        "do we have midterm exams",
+        "do we have final exams",
+        "what comes after midterm",
+        "exam system for our semester",
+        "tell me about our exams",
+        "are there midterms and finals",
+        "what is the exam structure",
+        "BSCS 3rd E exams",
+        "hamare exams ka system kya hai",
+        "midterm aur final hota hai",
+        "exam ka system batao"
+      ],
+      "response": "Current class information ke mutabiq examination structure mein Midterm exams ke baad Final exams hote hain. Exact exam dates aur date sheet official university ya department announcement se confirm karni chahiye."
+    },
+
+    {
+      "intent": "university_information",
+      "questions": [
+        "tell me about university of okara",
+        "what is university of okara",
+        "university of okara information",
+        "about university of okara",
+        "uo information",
+        "university basic information",
+        "tell me about UO",
+        "what kind of university is university of okara",
+        "university of okara ke bare mein batao",
+        "uo ke bare mein batao"
+      ],
+      "response": "University of Okara (UO) Okara, Punjab, Pakistan mein located ek higher-education university hai. UniAssist mein university ki sirf basic aur student-useful information rakhi gayi hai, jaise campus, departments, programs, admissions, contact details aur BSCS se related information."
+    },
+
+    {
+      "intent": "university_contact",
+      "questions": [
+        "what is university of okara contact number",
+        "how can i contact university of okara",
+        "university of okara phone number",
+        "what is the university email",
+        "what is admissions email",
+        "where is university of okara",
+        "university address",
+        "give me university contact details",
+        "admission office contact",
+        "official university email",
+        "university ka contact number kya hai",
+        "uo ka phone number"
+      ],
+      "response": "University of Okara address: 2 KM Multan Road, Renala Khurd Bypass, Okara, Punjab, Pakistan. General information: +92-44-2636060 aur +92-44-2636061. General email: info@uo.edu.pk. Admissions email: admissions@uo.edu.pk."
+    },
+
+    {
+      "intent": "campus_information",
+      "questions": [
+        "where is university of okara located",
+        "what is university of okara address",
+        "where is the campus",
+        "how can i find university of okara",
+        "university location",
+        "campus address",
+        "where is academic block three",
+        "where is academic block iii",
+        "what is ABIII",
+        "where are our classes held",
+        "university kahan hai",
+        "campus kahan hai"
+      ],
+      "response": "University of Okara 2 KM Multan Road, Renala Khurd Bypass, Okara, Punjab, Pakistan mein located hai. BSCS 3rd E ki listed classes Academic Block-III (ABIII) ke rooms mein hoti hain."
+    },
+
+    {
+      "intent": "department_information",
+      "questions": [
+        "what departments are in university of okara",
+        "which department is computer science in",
+        "what is the computer science department",
+        "which faculty has computer science",
+        "what departments are in faculty of computing",
+        "tell me about university departments",
+        "list computing departments",
+        "where does BSCS belong",
+        "which faculty is BSCS in",
+        "department of computer science university of okara",
+        "computer science kis department mein hai",
+        "BSCS kis faculty mein hai"
+      ],
+      "response": "University of Okara ki Faculty of Computing mein Department of Computer Science, Department of Software Engineering, Department of Information Technology aur Department of Data Science shamil hain. BS Computer Science computing faculty se associated hai."
+    },
+
+    {
+      "intent": "programs_information",
+      "questions": [
+        "what programs does university of okara offer",
+        "which BS programs are available",
+        "list undergraduate programs",
+        "what degrees are offered",
+        "what computer science programs are available",
+        "which programs are in computing",
+        "does university offer software engineering",
+        "does university offer information technology",
+        "what programs are in faculty of computing",
+        "tell me about university programs",
+        "university mein kon se programs hain",
+        "BS programs kon se hain"
+      ],
+      "response": "University of Okara multiple faculties mein undergraduate programs offer karti hai. Faculty of Computing mein Computer Science, Software Engineering, Information Technology aur Data Science jaise programs shamil hain."
+    },
+
+    {
+      "intent": "bs_computer_science",
+      "questions": [
+        "tell me about BS computer science at university of okara",
+        "what is BSCS",
+        "how long is BS computer science",
+        "how many semesters are in BSCS",
+        "BSCS duration at university of okara",
+        "computer science degree duration",
+        "how many years is BSCS",
+        "tell me about computer science program",
+        "what is the BS computer science program",
+        "university of okara BSCS",
+        "BSCS kitne saal ka hai",
+        "computer science kitne years ki hai"
+      ],
+      "response": "University of Okara ka BS Computer Science program 4 years aur 8 semesters ka undergraduate program hai."
+    },
+
+    {
+      "intent": "admission_information",
+      "questions": [
+        "how can i get admission in university of okara",
+        "how to apply to university of okara",
+        "university of okara admission process",
+        "how do admissions work",
+        "where can i apply for admission",
+        "how can i apply online",
+        "when do admissions open",
+        "where is the admission office",
+        "tell me about admissions",
+        "how to apply for BSCS",
+        "admission kaise lena hai",
+        "BSCS admission kaise hota hai"
+      ],
+      "response": "University of Okara ki admission information aur online application ke liye official university/admission system check karna chahiye. Current admission dates, merit lists aur application instructions official source se verify karein."
+    },
+
+    {
+      "intent": "fee_information",
+      "questions": [
+        "what is the BSCS fee",
+        "how much is university of okara fee",
+        "what is the fee per semester",
+        "BS computer science fee",
+        "what is the total BSCS fee",
+        "how much does BSCS cost",
+        "university fee structure",
+        "tell me the computer science fee",
+        "what are the tuition fees",
+        "how much is self support fee",
+        "BSCS ki fee kitni hai",
+        "semester fee kitni hai"
+      ],
+      "response": "Available University of Okara BS Computer Science information ke mutabiq regular/morning side ke liye semesters 2 to 8 ka estimated fee PKR 32,325 per semester aur self-support ke liye PKR 50,635 per semester listed hai. Latest fee notification payment se pehle verify karni chahiye."
+    },
+
+    {
+      "intent": "eligibility_information",
+      "questions": [
+        "what is the eligibility for BSCS",
+        "who can apply for BS computer science",
+        "what marks are required for BSCS",
+        "BSCS eligibility criteria",
+        "minimum marks for computer science",
+        "can i apply for BSCS",
+        "what qualification is required for BSCS",
+        "am i eligible for computer science",
+        "requirements for BSCS admission",
+        "what percentage is needed for BSCS",
+        "BSCS ke liye eligibility kya hai",
+        "computer science ke liye kitne marks chahiye"
+      ],
+      "response": "BS Computer Science ki current eligibility University of Okara ki official admission/program information se verify karni chahiye. UniAssist outdated eligibility guess nahi karega."
+    },
+
+    {
+      "intent": "attendance_information",
+      "questions": [
+        "what is the attendance requirement",
+        "how much attendance is required",
+        "minimum attendance percentage",
+        "what is university attendance policy",
+        "how is attendance calculated",
+        "can low attendance affect exams",
+        "attendance rules",
+        "what happens if attendance is low",
+        "tell me about attendance",
+        "how can i check attendance",
+        "attendance kitni honi chahiye",
+        "minimum attendance kya hai"
+      ],
+      "response": "BSCS 3rd E ke liye exact attendance requirement current dataset mein provided nahi hai. UniAssist guess nahi karega. Department, course teacher ya official university regulations se current attendance rule confirm karein."
+    },
+
+    {
+      "intent": "semester_information",
+      "questions": [
+        "which semester are we in",
+        "what semester is BSCS 3rd E",
+        "tell me about third semester",
+        "are we in third semester",
+        "BSCS third semester",
+        "what is our semester",
+        "which semester is our class",
+        "third semester information",
+        "BSCS 3rd E semester",
+        "what semester does 3rd E mean",
+        "hum kis semester mein hain",
+        "3rd E ka kya matlab hai"
+      ],
+      "response": "Aap BSCS 3rd E Evening class mein hain. '3rd' third semester/class level ko identify karta hai aur 'E' section ko."
+    },
+
+    {
+      "intent": "founder_information",
+      "questions": [
+        "who made uniassist",
+        "who created uniassist",
+        "who is the founder of uniassist",
+        "who developed this chatbot",
+        "who built this chatbot",
+        "who made this chatbot",
+        "tell me about the founder",
+        "tell me about mueen shahid",
+        "who is mueen shahid",
+        "mueen shahid kon hai",
+        "uniassist kis ne banaya",
+        "is mueen the founder",
+        "chatbot ka founder kon hai"
+      ],
+      "response": "UniAssist ko Mueen Shahid ne create kiya hai. Mueen Shahid BS Computer Science ke student hain, University of Okara mein BSCS 3rd E Evening section se related hain. Unki skills mein WordPress web development, Elementor, HTML, CSS, JavaScript, web design, graphic design, SEO aur AI-related creative work shamil hain. UniAssist banane ka purpose students ko ek simple, accessible aur creative digital assistant provide karna hai jo class aur university ki zaroori information ek jagah provide kare. UniAssist ko banane wala Mueen Shahid hai."
+    },
+
+    {
+      "intent": "founder_skills",
+      "questions": [
+        "what can mueen shahid do",
+        "what are mueen shahid skills",
+        "mueen shahid skills",
+        "what does mueen do",
+        "what is mueen good at",
+        "mueen ka skill set kya hai",
+        "mueen web developer hai",
+        "what technologies does mueen use",
+        "mueen shahid kya karta hai",
+        "founder ki skills kya hain"
+      ],
+      "response": "Mueen Shahid WordPress web developer hain. Woh WordPress, Elementor, HTML, CSS aur JavaScript ke saath websites aur digital projects par kaam karte hain. Unki interests mein web design, graphic design, SEO, programming aur AI-based creative projects bhi shamil hain."
+    },
+
+    {
+      "intent": "about_uniassist",
+      "questions": [
+        "what is uniassist",
+        "tell me about uniassist",
+        "what can you do",
+        "what can uniassist do",
+        "what information can i ask",
+        "how can you help me",
+        "what are your features",
+        "what can i ask you",
+        "uniassist kis kaam ka hai",
+        "tum kya kar sakte ho",
+        "main tumse kya pooch sakta hoon",
+        "chatbot kya information deta hai"
+      ],
+      "response": "Main UniAssist hoon, University of Okara BSCS 3rd E Evening students ka student assistant. Aap mujhse timetable, daily classes, subjects, teachers, rooms, class timing, credit hours, exams, basic university information aur class students ke available profiles ke baare mein pooch sakte hain. Aap mere creator Mueen Shahid ke baare mein bhi pooch sakte hain."
+    },
+
+    {
+      "intent": "language_behavior",
+      "questions": [
+        "can you understand roman urdu",
+        "do you understand urdu",
+        "can you understand english",
+        "can you understand mixed language",
+        "roman urdu samajhte ho",
+        "urdu samajhte ho",
+        "english samajhte ho",
+        "kya tum roman aur english samajh sakte ho",
+        "can i ask in roman urdu",
+        "can i ask in english",
+        "urdu english mix mein pooch sakta hoon"
+      ],
+      "response": "Ji haan. UniAssist Roman Urdu, Urdu, English aur mixed Roman Urdu-English questions ko samajhne ki koshish karta hai aur normally Roman Urdu + English mein jawab deta hai."
+    },
+
+    {
+      "intent": "fallback",
+      "questions": [
+        "what is the weather today",
+        "tell me a joke",
+        "who won the cricket match",
+        "how do i cook biryani",
+        "what is the capital of france",
+        "play music for me",
+        "what is the price of gold",
+        "tell me about movies",
+        "who is the president",
+        "how do i fix my car",
+        "what is the meaning of life",
+        "book a flight for me",
+        "what is the stock market",
+        "recommend a restaurant",
+        "translate this sentence",
+        "tell me something unrelated"
+      ],
+      "response": "Bhai, meri limits ke andar reh kar baat karo 😄 Mujhe is topic ke baare mein information nahi di gayi. Main University of Okara BSCS 3rd E Evening ke students ke liye bana hoon. Aap timetable, subjects, teachers, rooms, class timing, exams, basic university information, class students ya mere founder Mueen Shahid ke baare mein pooch sakte ho."
+    }
+
+  ]
+}

@@ -1,0 +1,412 @@
+{
+  "class": {
+    "program": "BS Computer Science",
+    "section": "3rd E",
+    "shift": "Evening",
+    "university": "University of Okara",
+    "total_students": 38
+  },
+
+  "students": [
+    {
+      "name": "SAFI UR REHMAN",
+      "roll_no": "F25E-BSCS-001",
+      "percentage": 76.50,
+      "cgpa": 3.32,
+      "status": "Promoted",
+      "profile": "Saaf dil aur friendly nature wala banda, jo apne doston ke saath achi bonding rakhta hai. Class mein apni alag hi vibe rakhta hai."
+    },
+    {
+      "name": "SAQIB MOEEN",
+      "roll_no": "F25E-BSCS-002",
+      "percentage": 83.40,
+      "cgpa": 3.63,
+      "status": "Promoted",
+      "profile": "1st CR reh chuka hai aur girls ka favourite CR bhi kaha jata tha. Responsible aur class matters ko handle karne wala banda. Ali Shair, Saad aur Safi ke close friend group ka part hai."
+    },
+    {
+      "name": "ANEELA IMTIAZ",
+      "roll_no": "F25E-BSCS-003",
+      "percentage": 80.10,
+      "cgpa": 3.50,
+      "status": "Promoted",
+      "profile": "Class mein bohat kam bolti hain, aksar bilkul quiet rehti hain. Apni hi side par rehne wali aur calm nature ki student hain. Eman Arooj ke close friend group ka part hain."
+    },
+    {
+      "name": "SYEDA UMME ABIHA",
+      "roll_no": "F25E-BSCS-004",
+      "percentage": 86.50,
+      "cgpa": 3.78,
+      "status": "Promoted",
+      "profile": "Current GR hain aur class mein bohat bolne wali aur active personality hain. Class activities mein apni presence zaroor show karti hain. Mehroz, Maryam aur Wajiha ke close friend group ka part hain."
+    },
+    {
+      "name": "WAJIHA BIBI",
+      "roll_no": "F25E-BSCS-005",
+      "percentage": 86.60,
+      "cgpa": 3.77,
+      "status": "Promoted",
+      "profile": "Soft aur friendly personality wali student. Apne close friends ke saath achi bonding rakhti hain aur class mein apni simple si positive presence rakhti hain. Abiha, Maryam aur Mehroz ke close friend group ka part hain."
+    },
+    {
+      "name": "MARYAM YASIN",
+      "roll_no": "F25E-BSCS-006",
+      "percentage": 78.60,
+      "cgpa": 3.41,
+      "status": "Promoted",
+      "profile": "Cricket lover. Sports ka shoq rakhne wali aur apni pasand ke mamlaat mein kaafi enthusiastic student. Abiha, Mehroz aur Wajiha ke close friend group ka part hain."
+    },
+    {
+      "name": "MUHAMMAD KASHIF",
+      "roll_no": "F25E-BSCS-009",
+      "percentage": 80.20,
+      "cgpa": 3.50,
+      "status": "Promoted",
+      "profile": "Class ka cricketer-type banda. Apne doston ke saath chill aur friendly vibe rakhta hai."
+    },
+    {
+      "name": "NEELAM YASEEN",
+      "roll_no": "F25E-BSCS-010",
+      "percentage": 87.50,
+      "cgpa": 3.82,
+      "status": "Promoted",
+      "profile": "Class ki sab se mature lagne wali girls mein se ek. Calm, composed aur sensible personality ka impression deti hain."
+    },
+    {
+      "name": "MUHAMMAD ABDULLAH",
+      "roll_no": "F25E-BSCS-011",
+      "percentage": 80.30,
+      "cgpa": 3.50,
+      "status": "Promoted",
+      "profile": "Kisi ki baat easily na sehne wala aur class ka background sambhalne walon mein se ek. Apne doston ke liye strong support rakhta hai."
+    },
+    {
+      "name": "AHMAD RAZA",
+      "roll_no": "F25E-BSCS-013",
+      "percentage": 73.20,
+      "cgpa": 3.16,
+      "status": "Promoted",
+      "profile": "Girls ko bilkul pasand na karne wali apni funny reputation ke liye mashhoor. Seedha-saadha aur apni baat par rehne wala banda."
+    },
+    {
+      "name": "M SAAD SAJJAD",
+      "roll_no": "F25E-BSCS-015",
+      "percentage": 91.60,
+      "cgpa": 4.00,
+      "status": "Promoted",
+      "profile": "Qadoos ke baad 3rd number par CR bana tha aur Ali Shair se pehle CR ki responsibility sambhali thi. Class management mein apna role play karne wala banda."
+    },
+    {
+      "name": "ALI HASSAN",
+      "roll_no": "F25E-BSCS-019",
+      "percentage": 74.40,
+      "cgpa": 3.24,
+      "status": "Promoted",
+      "profile": "Attitude boy ke naam se mashhoor. Apni personality aur confidence ki wajah se class mein easily notice ho jata hai."
+    },
+    {
+      "name": "KHADIJA ISHFAQ",
+      "roll_no": "F25E-BSCS-020",
+      "percentage": 87.00,
+      "cgpa": 3.84,
+      "status": "Promoted",
+      "profile": "Inki behnein university mein teachers hain. Family ki wajah se university environment se achi familiarity rakhti hain."
+    },
+    {
+      "name": "MUHAMMAD FAIZAN",
+      "roll_no": "F25E-BSCS-021",
+      "percentage": 80.00,
+      "cgpa": 3.48,
+      "status": "Promoted",
+      "profile": "Na hi poocho, bas apni hi duniya mein rehne wala banda. Apni masti aur unique personality ki wajah se class mein yaad rehne wala character."
+    },
+    {
+      "name": "AHMAD RAZA SABIR",
+      "roll_no": "F25E-BSCS-022",
+      "percentage": 76.60,
+      "cgpa": 3.33,
+      "status": "Promoted",
+      "profile": "Apni moj mein rehne wala banda. Zyada unnecessary tension lene ke bajaye apni vibe mein rehna pasand karta hai."
+    },
+    {
+      "name": "AMNA",
+      "roll_no": "F25E-BSCS-023",
+      "percentage": 81.80,
+      "cgpa": 3.60,
+      "status": "Promoted",
+      "profile": "Class ki choti bachii. Bohat bolne wali aur kabhi kabhi samjhe baghair bhi bol dene wali funny personality. Amna Akhtar ke naam se bhi jani jati hain."
+    },
+    {
+      "name": "MUHAMMAD QUDDOOS",
+      "roll_no": "F25E-BSCS-024",
+      "percentage": 78.00,
+      "cgpa": 3.39,
+      "status": "Promoted",
+      "profile": "Bhai ek din ke liye 2nd number par CR bane thay. CR wali responsibility ka short but memorable experience bhi raha."
+    },
+    {
+      "name": "HAMZA JAVED",
+      "roll_no": "F25E-BSCS-025",
+      "percentage": 76.00,
+      "cgpa": 3.32,
+      "status": "Promoted",
+      "profile": "Bhai Phool Nagar se roz university aate hain. Long-distance daily travel ke bawajood class ka part rehte hain."
+    },
+    {
+      "name": "AROOJ ASGHAR",
+      "roll_no": "F25E-BSCS-026",
+      "percentage": 82.70,
+      "cgpa": 3.60,
+      "status": "Promoted",
+      "profile": "Achi bachii aur positive personality wali student. Class mein decent aur friendly impression rakhti hain."
+    },
+    {
+      "name": "UME AIMEN ANDLEEB",
+      "roll_no": "F25E-BSCS-027",
+      "percentage": 82.10,
+      "cgpa": 3.58,
+      "status": "Promoted",
+      "profile": "Punjabi girl, apni unique personality aur friendly vibe ke saath. Apne close friends ke saath achi bonding rakhti hain."
+    },
+    {
+      "name": "MUHAMMAD UMER",
+      "roll_no": "F25E-BSCS-028",
+      "percentage": 88.30,
+      "cgpa": 3.85,
+      "status": "Promoted",
+      "profile": "Parhne wala banda. Studies ko seriously lene wali personality aur apne kaam par focus rakhne wala student. Class mein academic side par achi reputation rakhta hai."
+    },
+    {
+      "name": "INSA HAFEEZ",
+      "roll_no": "F25E-BSCS-030",
+      "percentage": 84.70,
+      "cgpa": 3.64,
+      "status": "Promoted",
+      "profile": "Class ki extrovert larki. Har kaam mein aage rehne wali aur active personality."
+    },
+    {
+      "name": "NADAR ALI",
+      "roll_no": "F25E-BSCS-031",
+      "percentage": 79.50,
+      "cgpa": 3.48,
+      "status": "Promoted",
+      "profile": "Class ka cricketer. Cricket ka shoq rakhne wala aur sports side par apni identity banane wala banda."
+    },
+    {
+      "name": "REHMAT ALI",
+      "roll_no": "F25E-BSCS-032",
+      "percentage": 71.50,
+      "cgpa": 3.08,
+      "status": "Promoted",
+      "profile": "Bhai rozana Lahore se university aate hain aur Lahore mein hi rehte hain. Daily travel inki class journey ka interesting part hai."
+    },
+    {
+      "name": "MUHAMMAD FAZEEL",
+      "roll_no": "F25E-BSCS-033",
+      "percentage": 81.20,
+      "cgpa": 3.55,
+      "status": "Promoted",
+      "profile": "Bhai AI/ML seekh rahe hain aur technology ke field mein apni skills develop karne par focus kar rahe hain. Learning-oriented mindset rakhte hain."
+    },
+    {
+      "name": "SAIF ULLAH",
+      "roll_no": "F25E-BSCS-034",
+      "percentage": 49.60,
+      "cgpa": 2.12,
+      "status": "Promoted",
+      "profile": "Bhai paper dene hi aate hain, bas! Class mein kam nazar aane ki wajah se apni alag hi reputation hai.",
+      "failing_subjects": [
+        "ICT",
+        "Multivariate",
+        "Digital Logic Design"
+      ]
+    },
+    {
+      "name": "ALI ZAIN",
+      "roll_no": "F25E-BSCS-035",
+      "percentage": 77.10,
+      "cgpa": 3.32,
+      "status": "Promoted",
+      "profile": "Acha banda aur simple friendly personality. Apne classmates ke saath achi bonding rakhta hai aur class mein positive vibe maintain karta hai."
+    },
+    {
+      "name": "MUEEN SHAHID",
+      "roll_no": "F25E-BSCS-036",
+      "percentage": 87.70,
+      "cgpa": 3.82,
+      "status": "Promoted",
+      "profile": "Studies, class activities aur doston ke mamlaat mein active rehne wala student."
+    },
+    {
+      "name": "ASAD ALI ASHRAF",
+      "roll_no": "F25E-BSCS-037",
+      "percentage": 77.10,
+      "cgpa": 3.34,
+      "status": "Promoted",
+      "profile": "Apni masti mein rehne wala aur apni hi vibe mein chill karne wala banda. Unnecessary tension se door aur doston ke saath enjoy karne wali personality."
+    },
+    {
+      "name": "MAHAM SAJID",
+      "roll_no": "F25E-BSCS-038",
+      "percentage": 80.60,
+      "cgpa": 3.53,
+      "status": "Promoted",
+      "profile": "Class ki vlogger. Class ke moments aur activities ko capture karne wali personality."
+    },
+    {
+      "name": "AKMAL HASSAN",
+      "roll_no": "F25E-BSCS-039",
+      "percentage": 83.40,
+      "cgpa": 3.64,
+      "status": "Promoted",
+      "profile": "Class ka calm aur simple banda. Apni studies aur routine mein apni pace par chalne wala student."
+    },
+    {
+      "name": "RIAZ AHMAD",
+      "roll_no": "F25E-BSCS-040",
+      "percentage": 55.30,
+      "cgpa": 2.42,
+      "status": "Promoted",
+      "profile": "Yeh bhai shareef se hain — simple aur decent personality.",
+      "failing_subjects": [
+        "English",
+        "Discrete Structures"
+      ]
+    },
+    {
+      "name": "EMAN AROOJ",
+      "roll_no": "F25E-BSCS-041",
+      "percentage": 74.10,
+      "cgpa": 3.22,
+      "status": "Promoted",
+      "profile": "Class mein bohat kam bolti hain, aksar bilkul quiet rehti hain. Calm aur reserved personality rakhti hain."
+    },
+    {
+      "name": "TAHIRA SALEEM",
+      "roll_no": "F25E-BSCS-043",
+      "percentage": 90.10,
+      "cgpa": 3.91,
+      "status": "Promoted",
+      "profile": "1st GR hain. Bohat achi GR rahi aur lagbhag 1.5 semester tak class ko represent karti rahi. Class management mein apna role achi tarah perform kiya."
+    },
+    {
+      "name": "ALI SHAIR",
+      "roll_no": "F25E-BSCS-044",
+      "percentage": 90.10,
+      "cgpa": 3.94,
+      "status": "Promoted",
+      "profile": "Hamara new CR. 3rd semester mein CR bana hai aur ab class ki representation ki responsibility sambhal raha hai."
+    },
+    {
+      "name": "USMAN ALI",
+      "roll_no": "F25E-BSCS-046",
+      "percentage": 81.60,
+      "cgpa": 3.58,
+      "status": "Promoted",
+      "profile": "Class mein tez banne ki koshish karta hai aur apni funny personality ki wajah se notice ho jata hai."
+    },
+    {
+      "name": "ALI RAZA",
+      "roll_no": "F25E-BSCS-047",
+      "percentage": 90.30,
+      "cgpa": 3.94,
+      "status": "Promoted",
+      "profile": "Yeh seedha-saadha banda hai, lekin jaldi gussa bhi kar leta hai. Apni straightforward personality ki wajah se class mein easily pehchana jata hai."
+    },
+    {
+      "name": "MEHROZ FATIMA",
+      "roll_no": "F25E-BSCS-048",
+      "percentage": 84.70,
+      "cgpa": 3.70,
+      "status": "Promoted",
+      "profile": "Friendly aur social personality wali student. Apne close friends ke saath achi bonding rakhti hain."
+    }
+  ],
+
+  "friend_groups": [
+    {
+      "group": 1,
+      "members": [
+        "ALI HASSAN",
+        "MUEEN SHAHID",
+        "MUHAMMAD ABDULLAH"
+      ],
+      "description": "Class ka close aur strong friend group."
+    },
+    {
+      "group": 2,
+      "members": [
+        "SYEDA UMME ABIHA",
+        "MARYAM YASIN",
+        "WAJIHA BIBI",
+        "MEHROZ FATIMA"
+      ],
+      "description": "Close female friend group."
+    },
+    {
+      "group": 3,
+      "members": [
+        "TAHIRA SALEEM",
+        "MAHAM SAJID",
+        "AROOJ ASGHAR",
+        "INSA HAFEEZ"
+      ],
+      "description": "Close female friend group."
+    },
+    {
+      "group": 4,
+      "members": [
+        "EMAN AROOJ",
+        "ANEELA IMTIAZ"
+      ],
+      "description": "Close 2-person friend group."
+    },
+    {
+      "group": 5,
+      "members": [
+        "AMNA",
+        "KHADIJA ISHFAQ",
+        "NEELAM YASEEN",
+        "UME AIMEN ANDLEEB"
+      ],
+      "description": "Close female friend group."
+    },
+    {
+      "group": 6,
+      "members": [
+        "USMAN ALI",
+        "AHMAD RAZA"
+      ],
+      "description": "Close 2-person friend group."
+    },
+    {
+      "group": 7,
+      "members": [
+        "ASAD ALI ASHRAF",
+        "AHMAD RAZA SABIR",
+        "MUHAMMAD FAIZAN"
+      ],
+      "description": "Close 3-person friend group."
+    },
+    {
+      "group": 8,
+      "members": [
+        "MUHAMMAD QUDDOOS",
+        "HAMZA JAVED",
+        "MUHAMMAD KASHIF",
+        "RIAZ AHMAD"
+      ],
+      "description": "Close 4-person friend group."
+    },
+    {
+      "group": 9,
+      "members": [
+        "ALI SHAIR",
+        "SAQIB MOEEN",
+        "M SAAD SAJJAD",
+        "SAFI UR REHMAN"
+      ],
+      "description": "Close friend group."
+    }
+  ]
+}
